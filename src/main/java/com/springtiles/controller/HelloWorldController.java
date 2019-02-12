@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloWorldController {
 	@RequestMapping("/hello")
 	public String helloWorld(Model m) {
-		String message = "Hello World, Spring MVC @ Javatpoint";
+		String message = "Hello World, Spring MVC @ VishnuPriya";
 		m.addAttribute("message", message);
 		return "hello"; 
 	}
